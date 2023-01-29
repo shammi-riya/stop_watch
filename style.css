@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: darkgray;
+}
+.stop__watch{
+    padding-top: 100px;
+   text-align: center;
+   
+}
+.stop__watch_head{
+    font-size: 50px;
+    font-weight: 700;
+    color: crimson;
+}
+.time{
+    color: crimson;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.stop__watch>button{
+     margin: 30px 10px;
+     padding: 12px 20px;
+     border: 1px solid crimson;
+     color: crimson;
+     font-size: 30px;
+     background-color: transparent;
+     transition: 0.5s;
+     -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+     border-radius: 5px ;
+     -webkit-border-radius: 5px ;
+     -moz-border-radius: 5px ;
+     -ms-border-radius: 5px ;
+     -o-border-radius: 5px ;
+}
+.stop__watch>button:hover{
+  background-color: crimson;
+   color: aliceblue;
+   border: 1px solid transparent;
+
+}
